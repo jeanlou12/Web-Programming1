@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Recipe</title>
+    <link rel="stylesheet" href="Recipe.css"> <!-- Linking external CSS file -->
+</head>
+<body>
+    <!-- Main heading for the recipe name -->
+    <h1>Chocolate Chip Cookies</h1>
+    
+    <!-- Paragraph describing the recipe -->
+    <p>Chocolate chip cookies are crispy on the edges, soft in the middle, and packed with rich chocolate flavor. Perfect for any occasion!</p>
+    
+    <!-- Subheading for ingredients -->
+    <h2>Ingredients</h2>
+    
+    <!-- List for ingredients -->
+    <ul>
+        <li>2 1/4 cups all-purpose flour</li>
+        <li>1 teaspoon baking soda</li>
+        <li>1/2 teaspoon salt</li>
+        <li>1 cup unsalted butter, softened</li>
+        <li>3/4 cup granulated sugar</li>
+        <li>3/4 cup brown sugar</li>
+        <li>2 large eggs</li>
+        <li>2 teaspoons vanilla extract</li>
+        <li>2 cups chocolate chips</li>
+    </ul>
+    
+    <!-- Subheading for method -->
+    <h2>Method</h2>
+    
+    <!-- Step by  step how to do it ! -->
+    <ol>
+        <li>Preheat oven to 350°F (175°C). Line a baking sheet with parchment paper.</li>
+        <li>In a bowl, mix flour, baking soda, and salt. Set aside.</li>
+        <li>In another bowl, beat butter, granulated sugar, and brown sugar until creamy.</li>
+        <li>Add eggs and vanilla extract, then mix until well combined.</li>
+        <li>Gradually add the dry ingredients to the wet mixture, stirring gently.</li>
+        <li>Fold in the chocolate chips evenly.</li>
+        <li>Drop spoonfuls of dough onto the baking sheet, spacing them apart.</li>
+        <li>Bake for 10-12 minutes or until golden brown.</li>
+        <li>Let cookies cool for a few minutes before transferring to a wire rack.</li>
+        <li>Enjoy your homemade chocolate chip cookies!</li>
+    </ol>
+    <!--I combine the Bonus - Optional-->
+</body>
+</html>
