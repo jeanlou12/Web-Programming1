@@ -1,0 +1,63 @@
+/* General Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #d3fcf8, #aee1f9);
+    color: #222;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Heading */
+h1 {
+    font-size: 32px;
+    color: #004b6b;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+/* Container for Images */
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* Each Figure Box */
+figure {
+    text-align: center;
+    background-color: #ffffffdd;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+figure:hover {
+    transform: translateY(-5px);
+}
+
+/* Image Styles */
+img {
+    width: 280px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    filter: brightness(0.95) contrast(1.1) saturate(1.2);
+}
+
+img:hover {
+    transform: scale(1.08) rotate(-1deg);
+    filter: brightness(1.2) contrast(1.3);
+}
+
+/* Caption Text */
+figcaption {
+    font-size: 15px;
+    margin-top: 8px;
+    color: #444;
+    font-style: italic;
+}
