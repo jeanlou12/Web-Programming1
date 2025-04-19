@@ -1,0 +1,52 @@
+/* Reset and base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #fff;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h2 {
+    font-size: 3rem;
+    color: #ffcc00;
+    text-shadow: 2px 2px #000, 0 0 10px #ffcc00;
+    flex-direction: column;
+  }
+  
+  /* Video Styling */
+  video {
+    border: 5px solid #020305;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #304ddc, 0 0 15px #00ffe5;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  video:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px #00ffe5, 0 0 20px #00ffe5;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    h2 {
+      font-size: 2rem;
+    }
+  
+    video {
+      width: 90%;
+      height: auto;
+    }
+  }
+  
