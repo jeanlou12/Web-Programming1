@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f5f7fa, #e4e7ed);
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2c1a47;
+    color: #ffffff;
+    text-align: center;
+    padding: 2.5rem 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
+    z-index: 10;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    background-color: #3d2d64;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #8c15e9;
+    transform: translateY(-2px);
+}
+
+/* Main Content */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 2rem;
+    max-width: 1200px;
+    margin: auto;
+    gap: 2rem;
+}
+
+/* Welcome Section */
+#welcome {
+    flex: 1 1 60%;
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+#welcome h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border-left: 6px solid #8c15e9;
+    padding-left: 1rem;
+}
+
+/* Image Style */
+.main-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* Sidebar (Line Up Section) */
+#lineup {
+    flex: 1 1 35%;
+    background-color: #3a4c96;
+    color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+#lineup h2 {
+    font-size: 1.8rem;
+    border-bottom: 3px solid #ffffff;
+    padding-bottom: 0.5rem;
+}
+
+/* Lineup Images */
+.image-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 48%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.03);
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 1.2rem;
+    font-size: 1rem;
+    margin-top: 3rem;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1);
+}
+

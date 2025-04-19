@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Header */
+header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content */
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#welcome {
+    width: 60%;
+}
+
+#welcome h2 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Sidebar (Line Up Section) */
+#lineup {
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+    width: 35%;
+}
+
+#lineup h2 {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 48%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
